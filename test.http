@@ -1,0 +1,9 @@
+GET http://localhost:8080/report?type=商品&reportUserId=115&reportContent=商品是非法的&targetId=250
+Accept: application/json
+
+###
+
+GET http://localhost:8080/report/vote?reviewerId=1&reportTaskId=1&voteResult=1
+Accept: application/json
+
+###
